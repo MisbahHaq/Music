@@ -53,7 +53,7 @@ class _SongListPageState extends State<SongListPage> {
     {
       "title": "Dandelions",
       "path": "audio/dandelions.mp3",
-      "image": "assets/images/dan.jpeg",
+      "image": "assets/images/dan.jpg",
       "artist": "BTS"
     },
     {
