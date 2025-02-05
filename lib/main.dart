@@ -1,7 +1,7 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:music/home.dart';
-import 'package:music/homepage.dart';
+import 'package:music/songlist.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,6 +15,52 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: MainPage(),
+    );
+  }
+}
+
+class MainPage extends StatefulWidget {
+  @override
+  _MainPageState createState() => _MainPageState();
+}
+
+class _MainPageState extends State<MainPage> {
+  int _selectedIndex = 0;
+  final List<Widget> _screens = [
+    SongListPage(),
+    BasicAudioPlayer(),
+  ];
+
+  void _onItemTapped(int index) {
+    setState(() {
+      _selectedIndex = index;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      extendBody: true, // Makes the body extend behind the navigation bar
+      body: _screens[_selectedIndex],
+      bottomNavigationBar: BottomNavigationBar(
+        currentIndex: _selectedIndex,
+        onTap: _onItemTapped,
+        backgroundColor:
+            Colors.transparent, // Makes the bottom nav bar transparent
+        elevation: 0, // Removes any shadow
+        selectedItemColor: Colors.white, // Color for the selected item
+        unselectedItemColor: Colors.grey, // Color for the unselected items
+        items: const [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: "Home",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.music_note),
+            label: "Shuffle",
+          ),
+        ],
+      ),
     );
   }
 }
