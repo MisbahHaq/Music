@@ -17,7 +17,7 @@ class _BasicAudioPlayerState extends State<BasicAudioPlayer> {
     {
       "title": "Kaisa Mai",
       "path": "audio/KaisaMai.mp3",
-      "image": "assets/images/arpit.webp",
+      "image": "assets/images/avg.jpg",
       "artist": "Arpit Bala"
     },
     {
@@ -29,19 +29,19 @@ class _BasicAudioPlayerState extends State<BasicAudioPlayer> {
     {
       "title": "Zimmedar",
       "path": "audio/Zimmedaar.mp3",
-      "image": "assets/images/arpit.webp",
+      "image": "assets/images/zim.jpg",
       "artist": "Arpit Bala"
     },
     {
       "title": "Gulabo",
       "path": "audio/GULABO.mp3",
-      "image": "assets/images/arpit.webp",
+      "image": "assets/images/gul.jfif",
       "artist": "Arpit Bala"
     },
     {
       "title": "Last Friday Night",
       "path": "audio/Katy.mp3",
-      "image": "assets/images/kate.jpg",
+      "image": "assets/images/kate.png",
       "artist": "Katy Perry"
     },
     {
@@ -59,13 +59,13 @@ class _BasicAudioPlayerState extends State<BasicAudioPlayer> {
     {
       "title": "You're My Escape",
       "path": "audio/escape.mp3",
-      "image": "assets/images/na.avif",
+      "image": "assets/images/na.png",
       "artist": "Naruto"
     },
     {
       "title": "F U N K A",
       "path": "audio/funka.mp3",
-      "image": "assets/images/arpit.webp",
+      "image": "assets/images/funk.png",
       "artist": "Arpit Bala"
     },
     {
