@@ -39,6 +39,18 @@ class _SongListPageState extends State<SongListPage> {
       "artist": "Arpit Bala"
     },
     {
+      "title": "F U N K A",
+      "path": "audio/funka.mp3",
+      "image": "assets/images/funk.png",
+      "artist": "Arpit Bala"
+    },
+    {
+      "title": "Tum Hy Ho",
+      "path": "audio/tumhiho.mp3",
+      "image": "assets/images/sha.jpg",
+      "artist": "Arijit Singh"
+    },
+    {
       "title": "Last Friday Night",
       "path": "audio/Katy.mp3",
       "image": "assets/images/kate.png",
@@ -57,21 +69,15 @@ class _SongListPageState extends State<SongListPage> {
       "artist": "BTS"
     },
     {
-      "title": "You're My Escape",
-      "path": "audio/escape.mp3",
-      "image": "assets/images/na.png",
-      "artist": "Naruto"
-    },
-    {
-      "title": "F U N K A",
-      "path": "audio/funka.mp3",
-      "image": "assets/images/funk.png",
-      "artist": "Arpit Bala"
-    },
-    {
       "title": "Love & Honour",
       "path": "audio/itachi.mp3",
       "image": "assets/images/it.jpg",
+      "artist": "Naruto"
+    },
+    {
+      "title": "You're My Escape",
+      "path": "audio/escape.mp3",
+      "image": "assets/images/na.png",
       "artist": "Naruto"
     },
     {
@@ -79,6 +85,24 @@ class _SongListPageState extends State<SongListPage> {
       "path": "audio/kakashi.mp3",
       "image": "assets/images/ka.jpeg",
       "artist": "Naruto"
+    },
+    {
+      "title": "Love & Angel",
+      "path": "audio/tra.mp3",
+      "image": "assets/images/tra.jpg",
+      "artist": "Trafalgar"
+    },
+    {
+      "title": "End of Me",
+      "path": "audio/endofme.mp3",
+      "image": "assets/images/016.jpg",
+      "artist": "Shamrocks"
+    },
+    {
+      "title": "Its Not Over",
+      "path": "audio/itsover.mp3",
+      "image": "assets/images/shan.jpg",
+      "artist": "Shanks"
     },
     {
       "title": "Kabir Singh",
@@ -93,7 +117,7 @@ class _SongListPageState extends State<SongListPage> {
       "artist": "Juice"
     },
     {
-      "title": "MayaBee",
+      "title": "Maya Bee",
       "path": "audio/maya.mp3",
       "image": "assets/images/maya.jpg",
       "artist": "Maya"
@@ -109,18 +133,6 @@ class _SongListPageState extends State<SongListPage> {
       "path": "audio/tim.mp3",
       "image": "assets/images/de.jpeg",
       "artist": "Desiigner"
-    },
-    {
-      "title": "Love & Angel",
-      "path": "audio/tra.mp3",
-      "image": "assets/images/tra.jpg",
-      "artist": "Trafalgar"
-    },
-    {
-      "title": "Tum Hy Ho",
-      "path": "audio/tumhiho.mp3",
-      "image": "assets/images/sha.jpg",
-      "artist": "Arijit Singh"
     },
   ];
 
